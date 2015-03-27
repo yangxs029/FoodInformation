@@ -1,0 +1,246 @@
+{
+ "name": "flare","color":9,
+ "children": [
+  {
+   "name": "东北地区","color":1,
+   "children": [
+    {
+     "name": "龙江菜","color":2,
+     "children": [
+	  {"name": "小鸡炖蘑菇", "color":3,"size": 1}
+     ]
+    },
+	{
+     "name": "吉菜","color":3,
+     "children": [
+      {"name": "烤冷面", "color":1,"size": 1}
+	   ]
+    },
+	{
+     "name": "辽菜","color":4,
+     "children": [
+      {"name": "铁板烤鱿鱼", "color":1,"size": 1}
+	   ]
+    }
+   ]
+   },
+   {"name": "西北地区","color":2,
+   "children": [
+       {
+     "name": "秦菜","color":5,
+     "children": [
+	  {"name": "牛羊肉泡馍", "color":1,"size": 1}
+     ]
+    },
+	{
+     "name": "陇菜","color":6,
+     "children": [
+      {"name": " 兰州拉面", "color":2,"size": 1}
+	   ]
+    },
+	{
+     "name": "青海菜","color":7,
+     "children": [
+      {"name": " 羊肉炒面片", "color":3,"size": 1}
+	   ]
+    },
+	{
+     "name": "宁夏菜","color":1,
+     "children": [
+      {"name": " 香酥羊腿", "color":4,"size": 1}
+	   ]
+    },
+	{
+     "name": "新疆菜","color":3,
+     "children": [
+      {"name": " 新疆大盘鸡", "color":5,"size": 1},
+	  {"name": " 馕", "color":6,"size": 1},
+	  {"name": " 烤全羊", "color":7,"size": 1}
+	   ]
+    }
+   ]
+  },
+   {"name": "华北地区","color":3,
+   "children": [
+    {
+     "name": "鲁菜","color":1,
+     "children": 
+	 [
+	  {"name": " 糖醋鲤鱼", "color":2,"size": 1}
+     ]
+    },
+	{
+     "name": "京菜","color":4,
+     "children": [
+      {"name": "涮羊肉", "color":5,"size": 1},
+	  {"name": "北京烤鸭", "color":6,"size": 1},
+	  {"name": "炸酱面", "color":7,"size": 1}
+	   ]
+    },
+	{
+     "name": "津菜","color":6,
+     "children": [
+      {"name": "狗不理包子", "color":1,"size": 1}
+	   ]
+    },
+	{
+     "name": "冀菜","color":6,
+     "children": [
+      {"name": "锅包肘子", "color":2,"size": 1}
+	   ]
+    },
+	{
+     "name": "晋菜","color":7,
+     "children": [
+      {"name": "油泼扯面", "color":3,"size": 1}
+	   ]
+    },
+	{
+     "name": "豫菜","color":1,
+     "children": [
+      {"name": "八宝饭", "color":4,"size": 1}
+	   ]
+    },
+	{
+     "name": "蒙古菜","color":2,
+     "children": [
+      {"name": "烤全羊", "color":5,"size": 1}
+	   ]
+    }
+   ]
+  },
+   {
+   "name": "华中地区","color":4,
+   "children": [
+    {
+     "name": "湘菜","color":5,
+     "children": [
+			 {"name": "剁椒鱼", "color":6,"size": 1},
+			 {"name": "干锅茶树菇", "color":7,"size": 1}
+     ]
+    },
+	{
+     "name": "鄂菜","color":6,
+     "children": [
+	        {"name": "热干面", "color":1,"size": 1}
+	   ]
+    }
+   ]
+  },
+  {
+   "name": "华东地区","color":5,
+   "children": [
+    {
+     "name": "徽菜","color":7,
+     "children": [
+	  {"name": "麻辣小龙虾", "color":2,"size": 1}
+     ]
+    },
+	{
+     "name": "苏菜","color":1,
+     "children": [
+      {"name": "狮子头", "color":3,"size": 1},
+	  {"name": "扬州炒饭", "color":4,"size": 1}
+	   ]
+    },
+	{
+     "name": "闽菜","color":2,
+     "children": [
+      {"name": "佛跳墙", "color":5,"size": 1}
+	   ]
+    },
+	{
+     "name": "浙菜","color":3,
+     "children": [
+      {"name": "东坡肉", "color":6,"size": 1},
+	  {"name": "小笼包", "color":7,"size": 1}
+	   ]
+    },
+	{
+     "name": "赣菜","color":4,
+     "children": [
+      {"name": "酒糟鱼", "color":1,"size": 1}
+	   ]
+    },
+	{
+     "name": "沪菜","color":6,
+     "children": [
+      {"name": "灌汤包", "color":2,"size": 1}
+	   ]
+    },
+	{
+     "name": "台湾美食","color":7,
+     "children": [
+      {"name": "卤肉饭", "color":3,"size": 1}
+	   ]
+    }
+   ]
+   },
+  {
+   "name": "华南地区","color":6,
+   "children": [
+    {
+     "name": "粤菜","color":1,
+     "children": [
+	  {"name": "干炒牛河", "color":4,"size": 1}
+     ]
+    },
+	{
+     "name": "桂菜","color":2,
+     "children": [
+      {"name": "清蒸桂鱼", "color":5,"size": 1}
+	   ]
+    }
+   ]
+   },
+  {
+   "name": "西南地区","color":7,
+   "children": [
+    {
+     "name": "川菜","color":1,
+     "children": [
+	 {"name": "宫保鸡丁", "color":7,"size": 1},
+	 {"name": "鱼香肉丝", "color":2,"size": 1},
+	 {"name": "重庆火锅", "color":3,"size": 1},
+	 {"name": "重庆小面", "color":4,"size": 1}
+     ]
+    },
+	{
+     "name": "黔菜","color":2,
+     "children": [
+	  {"name": "糟辣脆皮鱼", "color":5,"size": 1}
+     ]
+    },
+	{
+     "name": "滇菜","color":3,
+     "children": [
+	  {"name": "过桥米线", "color":6,"size": 1}
+     ]
+    },
+	{
+     "name": "西藏美食","color":4,
+     "children": [
+      {"name": "酥油糌粑", "color":7,"size": 1}
+	   ]
+    }
+   ]
+   },
+   {
+   "name": "其它","color":8,
+   "children": [
+    {
+     "name": "客家菜","color":5,
+     "children": [
+	  {"name": "盐焗鸡", "color":1,"size": 1}
+     ]
+    },
+	{
+     "name": "宫廷菜","color":1,
+     "children": [
+      {"name": "御用佛跳墙", "color":3,"size": 1}
+	   ]
+    }
+   ]
+   }
+  ]
+  }

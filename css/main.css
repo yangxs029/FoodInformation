@@ -1,0 +1,399 @@
+@CHARSET 'ISO-8859-1';
+/* Reset CSS
+ * --------------------------------------- */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td
+{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+}
+table
+{
+    border-spacing: 0;
+}
+fieldset,
+img
+{
+    border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var
+{
+    font-weight: normal;
+    font-style: normal;
+}
+strong
+{
+    font-weight: bold;
+}
+ol,
+ul
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+caption,
+th
+{
+    text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-size: 100%;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+
+    color: #444;
+}
+q:before,
+q:after
+{
+    content: '';
+}
+abbr,
+acronym
+{
+    border: 0;
+}
+
+
+/* Custom CSS
+ * --------------------------------------- */
+body
+{
+    font-family: arial,helvetica;
+
+    color: #333;
+    color: rgba(0,0,0,.5);
+}
+
+.section
+{
+    text-align: center;
+}
+#menu li
+{
+    display: inline-block;
+
+    margin: 10px;
+
+    color: #000;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    background: #fff;
+    background: rgba(255,255,255, .5);
+}
+#menu li.active
+{
+    color: #fff;
+    background: #666;
+    background: rgba(0,0,0, .5);
+}
+#menu li a
+{
+    text-decoration: none;
+
+    color: #000;
+}
+#menu li.active a:hover
+{
+    color: #000;
+}
+#menu li:hover
+{
+    background: rgba(255,255,255, .8);
+}
+#menu li a,
+#menu li.active a
+{
+    display: block;
+
+    padding: 9px 18px;
+}
+#menu li.active a
+{
+    color: #fff;
+}
+#menu
+{
+    position: fixed;
+    z-index: 70;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+#home
+{
+    width: 100%;
+    height: 100%;
+
+    background-color: #e6d5d0;
+}
+
+#home img
+{
+    position: relative;
+    top: 80px;
+
+    display: block;
+
+    height: 70%;
+    margin: 0 auto;
+}
+
+/* guanxi CSS
+ * --------------------------------------- */
+#myMap
+{
+    height: 600px;
+}
+
+#myMap .mapImg
+{
+    width: 150px;
+}
+
+/* guanxi CSS
+ * --------------------------------------- */
+#guanxi #circle circle
+{
+    pointer-events: all;
+
+    fill: none;
+}
+
+#guanxi .group path
+{
+    fill-opacity: .5;
+}
+
+#guanxi #circle:hover path.fade
+{
+    display: none;
+}
+
+/* yunqi CSS
+ * --------------------------------------- */
+
+#section2 circle
+{
+    stroke: #000;
+    stroke-opacity: .5;
+}
+
+#section2 .nodetext
+{
+    font-family: Microsoft YaHei;
+    font-size: 7px ;
+
+    -moz-user-select: none;
+
+    fill: #eee;
+}
+
+#yunqi
+{
+    width: 100%;
+    height: 100%;
+
+    background-color: #3e63a7;
+}
+
+#yqBook
+{
+    position: relative;
+    top: 70px;
+
+    display: block;
+
+    height: 80%;
+    margin: 0 auto;
+}
+
+#ysbiao,
+#xzDemo
+{
+    display: block;
+    /*width:100%;*/
+
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*#gaiImg
+{
+	display: block;
+	margin: 0 auto;
+	height: 80%;
+	position: relative;
+	top: 70px;
+}*/
+
+#siji
+{
+    background-color: #ddcddf;
+}
+
+#yuansu
+{
+    background-color: #fffdb6;
+}
+
+#gai
+{
+    /*height: 100%;*/
+    background-color: #f5ead8;
+}
+
+#sjBox
+{
+    position: relative;
+
+    width: 1000px;
+    height: 672px;
+    margin: 0 auto;
+}
+
+#sjBgi
+{
+    position: relative;
+    top: 50px;
+
+    display: block;
+
+    width: 100%;
+}
+
+.sjImg
+{
+    position: absolute;
+
+    width: 202px;
+}
+
+#sjChun
+{
+    top: 503px;
+    left: 100px;
+}
+
+#sjXia
+{
+    top: 158px;
+    left: 304px;
+}
+
+#sjQiu
+{
+    top: 503px;
+    left: 508px;
+}
+
+#sjDong
+{
+    top: 158px;
+    left: 713px;
+}
+/* Engel CSS
+ * --------------------------------------- */
+.engelBtn,
+.engelSlide
+{
+    display: none;
+}
+
+.active-engelBtn,
+.active-engel
+{
+    display: block;
+}
+
+#Engel
+{
+    overflow: hidden;
+
+    width: 657px;
+    margin: 0 auto;
+}
+
+#engelBtns,
+#engelImgs
+{
+    float: left;
+
+    height: 433px;
+}
+
+.engelBtnDiv
+{
+    height: 33.3333333%;
+}
+
+.engelBtn
+{
+    position: relative;
+}
+
+.engelBtn1
+{
+    top: 40px;
+}
+.engelBtn2
+{
+    top: 35px;
+}
+.engelBtn3
+{
+    top: 25px;
+}
+
+#engelTitle
+{
+    margin-bottom: 20px;
+}

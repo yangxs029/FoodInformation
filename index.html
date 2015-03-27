@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>中国美食信息可视化</title>
+	<meta name="author" content="Yang Xinsong" />
+	<meta name="description" content="Information visualization of Chinese food." />
+	<meta name="keywords"  content="information visualiation,Chinese food" />
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	<!--[if IE]>
+	<script type="text/javascript">var console = { log: function() {} };</script>
+	<![endif]-->
+
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				//sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff', '#333333', '#333333'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage', '5thPage', '6thPage', '7thPage'],
+				menu: '#menu',
+				//navigation: true,
+				scrollBar: true,
+				//equivalent to jQuery `easeOutBack` extracted from http://matthewlein.com/ceaser/
+				//easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
+				easingcss3: 'easeOutBack'
+			});
+
+		});
+	</script>
+
+</head>
+<body>
+	<ul id="menu">
+		<li data-menuanchor="firstPage">
+			<a href="#firstPage">首页</a>
+		</li>
+		<li data-menuanchor="secondPage">
+			<a href="#secondPage">美食与地域</a>
+		</li>
+		<li data-menuanchor="3rdPage">
+			<a href="#3rdPage">孕期百科</a>
+		</li>
+		<li data-menuanchor="4thPage">
+			<a href="#4thPage">食物性质</a>
+		</li>
+		<li data-menuanchor="5thPage">
+			<a href="#5thPage">饮食与经济</a>
+		</li>
+		<li data-menuanchor="6thPage">
+			<a href="#6thPage">味觉可视化</a>
+		</li>
+	</ul>
+
+	<div id="fullpage">
+
+		<div class="section " id="section0">
+			<div id="home">
+				<img src="images/首页.png" alt="吃的那些事儿"></div>
+		</div>
+
+		<div class="section" id="section1">
+			<div class="slide" id="map">
+				<script src='http://dev.dituhui.com/sdk/1.0.0/js/dituhui-flash.js'></script>
+				<script type="text/javascript" src="js/map2.js"></script>
+				<div id='myMap'></div>
+			</div>
+			<div class="slide" id="caixi">
+				<script src="js/d3.v3.min.js"></script>
+				<script type="text/javascript" src="js/caixi.js"></script>
+			</div>
+			<div class="slide" id="guanxi">
+				<script type="text/javascript" src="js/guanxi.js"></script>
+			</div>
+		</div>
+
+		<div class="section" id="section2">
+			<div id="yunqi">
+				<img src="images/孕期百科/孕妇百科书首页.png" alt="孕期百科书" id="yqBook" onClick="peitai()">
+				<script type="text/javascript" src="js/yunqi.js"></script>
+				<script type="text/javascript" src="js/siji.js"></script>
+			</div>
+		</div>
+
+		<div class="section" id="section3">
+			<img src="images/食物性质/demo.jpg" alt="食物性质" id="xzDemo"></div>
+
+		<div class="section" id="section4">
+			
+			<div id="Engel">
+				<div id="engelTitle">
+					<img src="images/恩格尔/title.jpg"/>
+				</div>
+				<div id="engelBtns">
+					<div class="engelBtnDiv" >
+						<img id="engelSbtn1" class="engelBtn engelBtn1 active-engelBtn" src="images/恩格尔/wb_small_btn.png">
+						<img id="engelBbtn1" class="engelBtn engelBtn1" src="images/恩格尔/wb_big_btn.png"/>
+					</div>
+					<div class="engelBtnDiv">
+						<img id="engelSbtn2" class="engelBtn engelBtn2 active-engelBtn" src="images/恩格尔/xk_small_btn.png"/>
+						<img id="engelBbtn2" class="engelBtn engelBtn2" src="images/恩格尔/xk_big_btn.png"/>
+					</div>
+					<div class="engelBtnDiv">
+						<img id="engelSbtn3" class="engelBtn engelBtn3 active-engelBtn" src="images/恩格尔/fy_small_btn.png"/>
+						<img id="engelBbtn3" class="engelBtn engelBtn3"  src="images/恩格尔/fy_big_btn.png">
+					</div>
+				</div>
+				<div id="engelImgs">
+					<div id="engelImg0" class="engelSlide active-engel">
+						<img src="images/恩格尔/engel.jpg"/>
+					</div>
+					<div id="engelImg1" class="engelSlide">
+						<img src="images/恩格尔/wenbao.jpg"/>
+					</div >
+					<div id="engelImg2" class="engelSlide">
+						<img src="images/恩格尔/xiaokang.jpg"/>
+					</div>
+					<div id="engelImg3" class="engelSlide">
+						<img src="images/恩格尔/fuyu.jpg"/>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript" src="js/engel.js"></script>
+		</div>
+
+		<div class="section" id="section5">
+			<h2>味觉可视化</h2>
+		</div>
+	</div>
+
+	<div class="footer">footer</div>
+
+</body>
+</html>
